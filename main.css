@@ -34,7 +34,6 @@ li:hover {
 
 .input-field:focus {
   border-color: blue;
-  border-width: 6px;
 }
 
 section {
