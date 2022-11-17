@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 200px;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgb(0, 132, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar ul li {
+  padding: 20px;
+}
+
+.column-text {
+  columns: 3;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 600px) .column-text {
+  columns: 2;
+}
+
+@media screen and (max-width: 440px) .column-text {
+  columns: ;
+}
